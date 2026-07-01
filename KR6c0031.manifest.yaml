@@ -1,0 +1,74 @@
+canonical_identifier: bkk:krp/KR6c0031/v1
+canonical_location: https://kanripo.org/bkk/KR6c0031/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛般若波羅蜜經論
+  identifiers:
+    alt_id:
+    - T25n1510b
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T25/T25n1510b.xml
+    old_id: T25n1510b
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0031_000.yaml, hash: 'sha256:806812d7f03e154c2e4fa97aae05e1545f895ffbff5162add46467c24854ac97'}
+  - {seq: 1, filename: KR6c0031_001.yaml, hash: 'sha256:83d282aef71eae1260dc3f1221a1748b10e5a662755b3262fb3bcfd5e9448cde'}
+  - {seq: 2, filename: KR6c0031_002.yaml, hash: 'sha256:dcedac3c49a7440ec01c3a40d96849572b63b224ae0c0631341c836f4ec4c9e5'}
+  - {seq: 3, filename: KR6c0031_003.yaml, hash: 'sha256:453461c086a1126e2f8fd41a6cc89657089d23bde2138aab187e16d04228db49'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0031_001.markers.yaml, hash: 'sha256:619b6fa7c8d01a0911db4a687d17947a3734e7d20e7a6c4dccba02da6304f1ca'}
+  - {seq: 2, role: markers, filename: assets/KR6c0031_002.markers.yaml, hash: 'sha256:75cb318792e1b4b7ed02aef3b15d6bbee67b048a814228abd35dab39fb3f30d2'}
+  - {seq: 3, role: markers, filename: assets/KR6c0031_003.markers.yaml, hash: 'sha256:714351d712f2b6e664d87d325145b99a8e68a9123fd37dc15ede482ef9123c58'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0031_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6901
+  label: '金剛般若波羅蜜經論卷上亦名金剛
+
+    能斷般若'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0031_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 6895
+  label: 金剛般若波羅蜜經論卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0031_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 6039
+  label: 金剛般若波羅蜜經論卷下
+  type: juan
+  level: 1
+hash: sha256:2eb4fd0738cdd946285e3fe525091c3340de83b97591355f8cf062670333570c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
